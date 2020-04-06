@@ -1,6 +1,6 @@
-## Edge Server for Catalogue Management System 
+## Catalogue Management System 
 
-#### Uses standard Eureka starter pack to bootup eureka server 
-#### Google's jib is used to build docker images
+##### Registers with consul and bootstraps the configurations 
+##### Mongo DB is used to maintain  the catalogues of the Products and categories 
+##### Google's jib is used to build docker images
 
-* zuul has been put into maintenance mode and it is suggested to use gateway along with consuul for future applications 
